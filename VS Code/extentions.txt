@@ -1,0 +1,5 @@
+Always install the recommended extentions
+
+Manually installed extentions
+- Bracket Pair Colorizer 2
+- Wakatime

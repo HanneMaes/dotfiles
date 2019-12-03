@@ -1,47 +1,49 @@
 {
-    "window.zoomLevel": -1,
-  
-    // Controls if opened editors from Quick Open show as preview. Preview editors are reused until they are kept (e.g. via double click or editing).
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-  
-    // Controls the indentation of wrapped lines.
-    //  - none: No indentation. Wrapped lines begin at column 1.
-    //  - same: Wrapped lines get the same indentation as the parent.
-    //  - indent: Wrapped lines get +1 indentation toward the parent.
-    //  - deepIndent: Wrapped lines get +2 indentation toward the parent.
-    "editor.wrappingIndent": "indent",
-  
-    // Controls the default location of the panel (terminal, debug console, output, problems). It can either show at the bottom or on the right of the workbench.
-    "workbench.panel.defaultLocation": "right",
-  
-    /*****************/
-    /* TABS & SPACES */
-    /*****************/
-  
-    // The number of spaces a tab is equal to. This setting is overriden
-    // based on the file contents when `editor.detectIndentation` is true.
-    "editor.tabSize": 2,
-  
-    // Insert spaces when pressing Tab. This setting is overriden
-    // based on the file contents when `editor.detectIndentation` is true.
-    "editor.insertSpaces": true,
-  
-    // When opening a file, `editor.tabSize` and `editor.insertSpaces`
-    // will be detected based on the file contents. Set to false to keep
-    // the values you've explicitly set, above.
-    "editor.detectIndentation": false,
-    "markdown-preview-enhanced.liveUpdate": false,
-    "python.linting.pylintEnabled": false,
-    "breadcrumbs.enabled": false,
-  
-    /********/
-    /* HTML */
-    /********/
-  
-    // Controls whether the editor should automatically close brackets after the user adds an opening bracket.
-    "editor.autoClosingBrackets": false,
-  
-    // Controls whether the editor should automatically close brackets after the user adds an opening bracket.
-    "editor.autoClosingBrackets": true,
-    "python.pythonPath": "/usr/local/bin/python3",
-  }
+  "window.zoomLevel": 0,
+
+  // Controls if opened editors from Quick Open show as preview. Preview editors are reused until they are kept (e.g. via double click or editing).
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+
+  // Controls the indentation of wrapped lines.
+  //  - none: No indentation. Wrapped lines begin at column 1.
+  //  - same: Wrapped lines get the same indentation as the parent.
+  //  - indent: Wrapped lines get +1 indentation toward the parent.
+  //  - deepIndent: Wrapped lines get +2 indentation toward the parent.
+  "editor.wrappingIndent": "indent",
+
+  // Controls whether the editor should automatically close brackets after the user adds an opening bracket.
+  "editor.autoClosingBrackets": true,
+
+  // python version
+  "python.pythonPath": "/usr/local/bin/python3",
+
+  /***************/
+  /* MOVE PANELS */
+  /***************/ 
+
+  // Controls the default location of the panel (terminal, debug console, output, problems). It can either show at the bottom or on the right of the workbench.
+  "workbench.panel.defaultLocation": "right",
+
+  // Controls the location of the sidebar. It can either show on the left or right of the workbench.
+  "workbench.sideBar.location": "right",
+
+  /*****************/
+  /* TABS & SPACES */
+  /*****************/
+
+  // The number of spaces a tab is equal to. This setting is overriden
+  // based on the file contents when `editor.detectIndentation` is true.
+  "editor.tabSize": 2,
+
+  // Insert spaces when pressing Tab. This setting is overriden
+  // based on the file contents when `editor.detectIndentation` is true.
+  "editor.insertSpaces": true,
+
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces`
+  // will be detected based on the file contents. Set to false to keep
+  // the values you've explicitly set, above.
+  "editor.detectIndentation": false,
+  "markdown-preview-enhanced.liveUpdate": false,
+  "python.linting.pylintEnabled": false,
+  "breadcrumbs.enabled": false,  
+}
