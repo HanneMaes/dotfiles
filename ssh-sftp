@@ -1,0 +1,8 @@
+##########################
+### remote connections ###
+##########################
+
+alias sshlocal='ssh -p 44 RanzigenDanny@192.168.0.254'
+alias sshremote='ssh -p 44 RanzigenDanny@84.197.221.131'
+alias sftplocal='sftp RanzigenDanny@192.168.0.254'
+alias sftpremote='sftp RanzigenDanny@84.197.221.131'
