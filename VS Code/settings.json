@@ -14,8 +14,12 @@
   // Controls whether the editor should automatically close brackets after the user adds an opening bracket.
   "editor.autoClosingBrackets": true,
   
-  // python version
-  "python.pythonPath": "/usr/local/bin/python3",
+  // ligatures font
+  "editor.fontFamily": "VictorMono-SemiBold",
+  "editor.fontLigatures": true,
+
+  // theme
+  "workbench.colorTheme": "Atom One Dark",
   
   /***************/
   /* MOVE PANELS */
@@ -46,7 +50,4 @@
   "markdown-preview-enhanced.liveUpdate": false,
   "python.linting.pylintEnabled": false,
   "breadcrumbs.enabled": false,  
-
-  // theme
-  "workbench.colorTheme": "Atom One Dark"
-  }
+}
