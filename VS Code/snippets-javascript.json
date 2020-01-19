@@ -12,7 +12,7 @@
 	// 	],
 	// 	"description": "Log output to console"
   // }
-
+  
   "Separation line BIG": {
 		"prefix": "separation",
 		"body": [
@@ -52,5 +52,4 @@
 		],
 		"description": "if var undefined"
   },
-  
 }
